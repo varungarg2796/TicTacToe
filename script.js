@@ -78,9 +78,9 @@ function winChecker()
 	        setTimeout(UpdateScore, 2000);
 	        break;
 
-	      case $('#row1col1').text() === currentPlayer && $('#row2col2').text() === currentPlayer && //first col
-	      $('#row3col3').text() === currentPlayer:
-	        showVictory('#row1col1', '#row2col2', '#row3col3');
+	      case $('#row1col1').text() === currentPlayer && $('#row2col1').text() === currentPlayer && //first col
+	      $('#row3col1').text() === currentPlayer:
+	        showVictory('#row1col1', '#row2col1', '#row3col1');
 	        $("#result").text(activePlayer + " Won!!");
 	        setTimeout(UpdateScore, 2000);
 	        break;
