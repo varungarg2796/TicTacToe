@@ -1,1 +1,69 @@
-/*styling here*/
+
+h1,
+h3 {
+  text-align: center;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: #663300;
+}
+
+
+body {
+  background-image: url('http://www.aapopuskala.fi/_img/paper.jpg');
+}
+
+.field {
+  border-color: #162234;
+  width: 100px;
+  height: 100px;
+  border-width: 5px;
+}
+
+.board {
+  margin: 40px auto;
+  display: block;
+  width: 295px;
+}
+
+.ico {
+  margin: -10px auto;
+  display: block;
+  color: black;
+  font-size: 80px;
+}
+
+.winningRow {
+  background-color: red;
+}
+
+#row2col1 {
+  border-style: solid solid solid none;
+}
+
+#row2col2 {
+  border-style: solid none solid none;
+}
+
+#row2col3 {
+  border-style: solid none solid solid;
+}
+
+#row1col1 {
+  border-style: none solid none none;
+}
+
+#row1col3 {
+  border-style: none none none solid;
+}
+
+#row3col1 {
+  border-style: none solid none none;
+}
+
+#row3col3 {
+  border-style: none none none solid;
+}
+
+.col-xs-1{
+	text-align: center;
+	font-size: 80px;
+}

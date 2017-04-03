@@ -2,12 +2,46 @@
 <html>
 <head>
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"><!--BCSS-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> <!--Jquery-->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!--BootstrapJS-->
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div class="container-fluid text-center">
+  <h1>Tic Tac Toe</h1>
+  <div id="setup">
+  	  Player 1 play as
+      <button type="button" class="btn btn-primary icon" id="X">X</button>
+      or
+      <button type="button" class="btn btn-primary icon" id="O">O</button>
+      ?
+  </div>
+  <div class="board">
+    <div class="row">
+      <div class="col-xs-1 text-center field" id="row1col1"></div>
+      <div class="col-xs-1 text-center field" id="row1col2"></div>
+      <div class="col-xs-1 text-center field" id="row1col3"></div>
+    </div>
+    <div class="row">
+      <div class="col-xs-1 text-center field" id="row2col1"></div>
+      <div class="col-xs-1 text-center field" id="row2col2"></div>
+      <div class="col-xs-1 text-center field" id="row2col3"></div>
+    </div>
+    <div class="row">
+      <div class="col-xs-1 text-center field" id="row3col1"></div>
+      <div class="col-xs-1 text-center field" id="row3col2"></div>
+      <div class="col-xs-1 text-center field" id="row3col3"></div>
+    </div>
+  </div>
+  <h3> Score!
+      <br>
+      <p>Player 1<span class="badge player X">0</span>
+      Player 2 <span class="badge machine O">0</span></p>
+    </h3>
+</div>
 
 <script src="script.js"></script>
 </body>
