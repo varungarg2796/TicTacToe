@@ -24,15 +24,14 @@ body {
   width: 295px;
 }
 
-.ico {
-  margin: -10px auto;
-  display: block;
-  color: black;
-  font-size: 80px;
+
+.winningComb {
+  background-color: pink;
 }
 
-.winningRow {
-  background-color: red;
+#result{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 40px;
 }
 
 #row2col1 {
