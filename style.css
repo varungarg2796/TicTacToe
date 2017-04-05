@@ -15,6 +15,9 @@ body {
   background-image: url('http://www.aapopuskala.fi/_img/paper.jpg');
 }
 
+button{
+	border-radius: 20px;	
+}
 .field {
   border-color: #162234;
   width: 100px;
