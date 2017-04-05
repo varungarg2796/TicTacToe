@@ -75,3 +75,7 @@ button{
 	text-align: center;
 	font-size: 80px;
 }
+
+.badge{
+	background-color: red;
+}
